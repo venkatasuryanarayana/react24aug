@@ -1,0 +1,112 @@
+.card1,.card2,.card3{
+	border: 2px solid #3A3A33;
+	padding: 1%;
+	margin: 1%;
+	font-size: 25px;
+	text-align: center;
+	border-radius: 10%;
+	width: 25%;
+	background-color: skyblue;
+}
+button{
+	width: 40%;
+	background-color: green;
+	height: 8%;
+}
+img{
+	width: 60%;
+	border:2px solid black;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 6px 8px red;
+
+}
+.card-view{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border: 2px solid #ddd;
+	margin: 1%;
+	padding: 1%;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px){
+.card1,.card2,.card3{
+	border: 2px solid #3A3A33;
+	padding: 2%;
+	margin: 2%;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10%;
+	width: 92%;
+	background-color: orange;
+}
+h3,p,button{
+	word-wrap: break-word;
+}
+button{
+	width: 40%;
+	background-color: green;
+	height: 8%;
+}
+img{
+	width: 60%;
+	border:2px solid black;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 6px 8px red;
+
+}
+.card-view{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border: 2px solid #ddd;
+	margin: 1%;
+	padding: 1%;
+}	
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px){
+	.card1,.card2,.card3{
+	border: 2px solid #3A3A33;
+	padding: 2%;
+	margin: 2%;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10%;
+	width: 40%;
+	background-color: yellow;
+}
+h3,p,button{
+	word-wrap: break-word;
+}
+button{
+	width: 40%;
+	background-color: green;
+	height: 8%;
+}
+img{
+	width: 60%;
+	border:2px solid black;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 6px 8px red;
+
+}
+.card-view{
+	display: flex;
+	flex-wrap:wrap;
+	border: 2px solid #ddd;
+	margin: 1%;
+	padding: 1%;
+}	
+}
+
+}
